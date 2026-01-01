@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Premier Schools Exhibition — Gurugram</title>
+        <meta name="description" content="Discover Gurugram’s top schools, meet representatives, and pre-schedule appointments." />
+
+        <link rel="stylesheet" href="styles.css" />
+
+        <!-- GSAP -->
+        <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+        <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+    </head>
+
+    <body>
+        <header class="site-header">
+            <div class="header-inner">
+                <img src="./assets/logo-removebg-preview (2).png" class="logo" alt="Premier Schools Exhibition" />
+                <a href="#register" class="register-btn"> REGISTER NOW <span>↗</span> </a>
+            </div>
+        </header>
+
+        <main>
+            <!-- HERO -->
+            <section class="hero">
+                <div class="hero__content">
+                    <!-- LEFT -->
+                    <div class="hero__copy">
+                        <h1 class="hero__title">
+                            <span class="hero__kicker">Discover Gurugram’s</span><br />
+                            Top 30+ Schools
+                        </h1>
+                        <p class="hero__subtitle">ALL IN ONE PLACE</p>
+
+                        <div class="hero__pill">
+                            <div>
+                                <strong>Apparel House,</strong>
+                                <span>Sec 44, Gurugram</span>
+                            </div>
+                            <div class="pill-divider"></div>
+                            <div>
+                                <strong>2–3 August 2025</strong>
+                                <span>Sat–Sun | 10AM – 6PM</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- IMAGES -->
+                    <div class="hero__images">
+                        <div class="image-column" data-speed="1">
+                            <div class="image-track">
+                                <img src="assets/157ea56a-e9c7-4de9-b83c-9c478fa409bd.png" />
+                                <img src="assets/3796dce0-1383-4fda-9acd-4e4d87c82703.png" />
+                                <img src="assets/157ea56a-e9c7-4de9-b83c-9c478fa409bd.png" />
+                            </div>
+                        </div>
+
+                        <div class="image-column" data-speed="1.2">
+                            <div class="image-track">
+                                <img src="assets/c7167e40-5803-49fa-af36-919a3301674c.png" />
+                                <img src="assets/bdab9139-09a1-4658-83f0-763651796e0f.png" />
+                                <img src="assets/c7167e40-5803-49fa-af36-919a3301674c.png" />
+                            </div>
+                        </div>
+
+                        <div class="image-column" data-speed="0.9">
+                            <div class="image-track">
+                                <img src="assets/3796dce0-1383-4fda-9acd-4e4d87c82703.png" />
+                                <img src="assets/157ea56a-e9c7-4de9-b83c-9c478fa409bd.png" />
+                                <img src="assets/3796dce0-1383-4fda-9acd-4e4d87c82703.png" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FORM -->
+                    <form class="enquiry">
+                        <h3>Enquire Now</h3>
+                        <input class="enquiry__input" placeholder="Parent’s Name" />
+                        <input class="enquiry__input" placeholder="Phone number" />
+                        <input class="enquiry__input" placeholder="Which grade are you looking for?" />
+                        <button class="btn btn--primary"><span>↗</span> SUBMIT</button>
+                    </form>
+                </div>
+            </section>
+            <!-- TRUST METRICS -->
+            <section class="trust">
+                <div class="trust__container">
+                    <div class="trust__item">
+                        <img
+                            src="https://png.pngtree.com/png-vector/20240203/ourmid/pngtree-gold-award-laurel-wreath-vector-png-image_11674934.png"
+                            alt=""
+                        />
+                        <div class="trust__text">
+                            Trusted by
+                            <strong>1 Million+</strong>
+                            Parents
+                        </div>
+                    </div>
+
+                    <div class="trust__item">
+                        <img
+                            src="https://png.pngtree.com/png-vector/20240203/ourmid/pngtree-gold-award-laurel-wreath-vector-png-image_11674934.png"
+                            alt=""
+                        />
+                        <div class="trust__text">
+                            <strong>22+</strong>
+                            Years<br />
+                            of Legacy
+                        </div>
+                    </div>
+
+                    <div class="trust__item">
+                        <img
+                            src="https://png.pngtree.com/png-vector/20240203/ourmid/pngtree-gold-award-laurel-wreath-vector-png-image_11674934.png"
+                            alt=""
+                        />
+                        <div class="trust__text">
+                            <strong>500+</strong>
+                            Participating<br />
+                            Schools
+                        </div>
+                    </div>
+
+                    <div class="trust__item">
+                        <img
+                            src="https://png.pngtree.com/png-vector/20240203/ourmid/pngtree-gold-award-laurel-wreath-vector-png-image_11674934.png"
+                            alt=""
+                        />
+                        <div class="trust__text">
+                            <strong>17 Cities</strong>
+                            Across the<br />
+                            Globe
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- LOGOS -->
+            <section class="logos" data-gsap="fade-up">
+                <div class="container">
+                    <h2 id="logosHeading">Participating Schools</h2>
+                    <div class="logos__belt" aria-label="Participating school logos row 1">
+                        <div class="logos__track logos__track--l2r">
+                            <img src="assets/woodstock.png" alt="School logo 1" />
+                            <img src="assets/woodstock.png" alt="School logo 2" />
+                            <img src="assets/woodstock.png" alt="School logo 3" />
+                            <img src="assets/woodstock.png" alt="School logo 4" />
+                            <img src="assets/woodstock.png" alt="School logo 5" />
+                            <img src="assets/woodstock.png" alt="School logo 6" />
+                        </div>
+                    </div>
+                    <div class="logos__belt" aria-label="Participating school logos row 2">
+                        <div class="logos__track logos__track--r2l">
+                            <img src="assets/woodstock.png" alt="School logo 7" />
+                            <img src="assets/woodstock.png" alt="School logo 8" />
+                            <img src="assets/woodstock.png" alt="School logo 9" />
+                            <img src="assets/woodstock.png" alt="School logo 10" />
+                            <img src="assets/woodstock.png" alt="School logo 11" />
+                            <img src="assets/woodstock.png" alt="School logo 12" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CHOOSE -->
+            <section class="choose" aria-labelledby="chooseHeading">
+                <div class="container">
+                    <div class="choose__header">
+                        <h2 id="chooseHeading">Choose the School That Fits You Best</h2>
+                    </div>
+
+                    <div
+                        class="choose__grid"
+                        data-mobile-slider
+                        role="region"
+                        aria-roledescription="carousel"
+                        aria-label="School categories"
+                        aria-live="polite"
+                    >
+                        <article class="card choose__card" role="group" aria-label="Pre‑Schools & Early Learning Centres">
+                            <img
+                                class="card__img"
+                                src="https://content3.jdmagicbox.com/comp/jhansi/dc/9999px510.x510.1234279305u9t8e1.dc/catalogue/sun-international-school-shivaji-nagar-jhansi-cbse-schools-19IZEWI2Kb.jpg"
+                                alt="Pre‑schools library"
+                            />
+                            <div class="card__overlay">
+                                <h3 class="card__title">Pre‑Schools & Early Learning Centres</h3>
+                                <p class="card__text">Nurturing foundational skills for toddlers and pre‑primary children.</p>
+                            </div>
+                        </article>
+
+                        <article class="card choose__card" role="group" aria-label="K–12 CBSE Day Schools">
+                            <img
+                                class="card__img"
+                                src="https://content3.jdmagicbox.com/comp/jhansi/dc/9999px510.x510.1234279305u9t8e1.dc/catalogue/sun-international-school-shivaji-nagar-jhansi-cbse-schools-19IZEWI2Kb.jpg"
+                                alt="Student thumbs up"
+                            />
+                            <div class="card__overlay">
+                                <h3 class="card__title">K–12 CBSE Day Schools</h3>
+                                <p class="card__text">Complete schooling from Kindergarten to Grade 12.</p>
+                            </div>
+                        </article>
+
+                        <article class="card choose__card" role="group" aria-label="Heritage to New‑Age Schools">
+                            <img
+                                class="card__img"
+                                src="https://content3.jdmagicbox.com/comp/jhansi/dc/9999px510.x510.1234279305u9t8e1.dc/catalogue/sun-international-school-shivaji-nagar-jhansi-cbse-schools-19IZEWI2Kb.jpg"
+                                alt="Science lab class"
+                            />
+                            <div class="card__overlay">
+                                <h3 class="card__title">Heritage to New‑Age Schools</h3>
+                                <p class="card__text">Time‑tested to innovative pedagogy, tech‑enabled and future‑ready.</p>
+                            </div>
+                        </article>
+
+                        <article class="card choose__card" role="group" aria-label="International Curriculum Schools">
+                            <img
+                                class="card__img"
+                                src="https://content3.jdmagicbox.com/comp/jhansi/dc/9999px510.x510.1234279305u9t8e1.dc/catalogue/sun-international-school-shivaji-nagar-jhansi-cbse-schools-19IZEWI2Kb.jpg"
+                                alt="Students at boarding school"
+                            />
+                            <div class="card__overlay">
+                                <h3 class="card__title">International Curriculum Schools</h3>
+                                <p class="card__text">IB, Cambridge, Finnish and other global curricula.</p>
+                            </div>
+                        </article>
+
+                        <div class="pagination" aria-hidden="true"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- EXPO -->
+            <!-- EXPO -->
+            <section class="expo-split" aria-labelledby="expoHeading">
+                <div class="expo-split__content">
+                    <p class="expo-split__eyebrow">Exciting Opportunities for Parents!</p>
+
+                    <h2 id="expoHeading">
+                        Pre-schedule Your<br />
+                        School Appointments
+                    </h2>
+
+                    <p class="expo-split__sub">To Avoid Rush</p>
+
+                    <a class="btn btn--primary expo-split__cta" href="#register"> <span>↗</span> PRE-SCHEDULE NOW </a>
+                </div>
+
+                <div class="expo-split__image">
+                    <img src="assets/newOne.jpg" alt="Parents interacting with school representatives" />
+                </div>
+            </section>
+
+            <!-- MUST VISIT SLIDER -->
+            <section class="mustvisit">
+                <h2 class="mustvisit__title">What Makes This Exhibition a Must-Visit</h2>
+
+                <div class="mustvisit__slider">
+                    <!-- <button class="nav nav--prev" aria-label="Previous slide">‹</button> -->
+
+                    <div class="mustvisit__track">
+                        <article class="mustvisit__card">
+                            <img src="assets/icons/interact.svg" alt="" />
+                            <h3>Interact Directly with School Heads</h3>
+                            <p>Get answers straight from the experts.</p>
+                        </article>
+
+                        <article class="mustvisit__card">
+                            <img src="assets/icons/curriculum.svg" alt="" />
+                            <h3>Compare Curriculum & Pedagogy</h3>
+                            <p>CBSE, ICSE, IB, Cambridge, Finnish & more.</p>
+                        </article>
+
+                        <article class="mustvisit__card">
+                            <img src="assets/icons/offers.svg" alt="" />
+                            <h3>Exclusive Fee Structures & Offers</h3>
+                            <p>Access transparent information and avail offers.</p>
+                        </article>
+
+                        <article class="mustvisit__card">
+                            <img src="assets/icons/infrastructure.svg" alt="" />
+                            <h3>Explore School Offerings</h3>
+                            <p>Infrastructure, curriculum, culture & methodology.</p>
+                        </article>
+
+                        <article class="mustvisit__card">
+                            <img src="assets/icons/counselling.svg" alt="" />
+                            <h3>On-the-Spot Counselling</h3>
+                            <p>Guided support for school selection.</p>
+                        </article>
+                    </div>
+
+                    <!-- <button class="nav nav--next" aria-label="Next slide">›</button> -->
+                </div>
+                <div class="curve-wrapper">
+                    <svg viewBox="0 0 1440 160" preserveAspectRatio="none">
+                        <path
+                            d="
+        M0,60
+        C240,160
+         480,160
+         720,120
+         960,80
+         1200,60
+         1440,50
+        L1440,160
+        L0,160
+        Z"
+                            fill="#ffffff"
+                        />
+                    </svg>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="footer-main">
+                <div class="footer-container">
+                    <!-- Logo -->
+                    <div class="footer-col footer-logo">
+                        <img src="assets/logo-removebg-preview (2).png" alt="Premier Schools Exhibition" />
+                    </div>
+
+                    <!-- Corporate Office -->
+                    <div class="footer-col">
+                        <div class="footer-title"><span class="icon">📍</span> Corporate Office:</div>
+                        <p>
+                            Suite B-5, Ballygunge Park Tower,<br />
+                            67B Ballygunge Circular Road,<br />
+                            Kolkata - 700019
+                        </p>
+                    </div>
+
+                    <!-- Ahmedabad Office -->
+                    <div class="footer-col">
+                        <div class="footer-title"><span class="icon">📍</span> Ahmedabad Office:</div>
+                        <p>
+                            12/AA, Swastik Chambers, Near CU Shah College,<br />
+                            Ashram Road,<br />
+                            Ahmedabad - 380009
+                        </p>
+                    </div>
+
+                    <!-- Call -->
+                    <div class="footer-col">
+                        <div class="footer-title"><span class="icon">📞</span> Call us on</div>
+                        <p>
+                            9674805912<br />
+                            9674585012
+                        </p>
+                    </div>
+
+                    <!-- Social -->
+                    <div class="footer-col footer-social">
+                        <div class="footer-title">Follow us on</div>
+                        <div class="social-icons">
+                            <a href="#"><img src="assets/icons/instagram.svg" alt="Instagram" /></a>
+                            <a href="#"><img src="assets/icons/facebook.svg" alt="Facebook" /></a>
+                            <a href="#"><img src="assets/icons/youtube.svg" alt="YouTube" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom bar -->
+            <div class="footer-bottom">© 2025 | All rights reserved. Premier Schools Exhibition</div>
+        </footer>
+
+        <script src="scripts.js"></script>
+    </body>
+</html>
