@@ -14,7 +14,9 @@
     </head>
 
     <body>
-        <header class="site-header">
+        <a href="#main-content" class="skip-link">Skip to main content</a>
+
+        <header class="site-header" role="banner">
             <div class="header-inner">
                 <img src="./assets/logo-removebg-preview (2).png" class="logo" alt="Premier Schools Exhibition" />
                 <a href="#register" class="register-btn">
@@ -24,7 +26,7 @@
             </div>
         </header>
 
-        <main>
+        <main id="main-content">
             <!-- HERO -->
             <section class="hero">
                 <div class="hero__content">
@@ -51,24 +53,24 @@
 
                     <!-- IMAGES -->
                     <div class="hero__images">
-                        <div class="image-column" data-speed="1">
-                            <div class="image-track">
+                        <div class="image-column hero__image-column" data-speed="1">
+                            <div class="image-track hero__image-track">
                                 <img src="assets/img1.png" />
                                 <img src="assets/img2.png" />
                                 <img src="assets/img3.png" />
                             </div>
                         </div>
 
-                        <div class="image-column" data-speed="1.2">
-                            <div class="image-track">
+                        <div class="image-column hero__image-column" data-speed="1.2">
+                            <div class="image-track hero__image-track">
                                 <img src="assets/img4.png" />
                                 <img src="assets/img5.jpg" />
                                 <img src="assets/img6.png" />
                             </div>
                         </div>
 
-                        <div class="image-column" data-speed="0.9">
-                            <div class="image-track">
+                        <div class="image-column hero__image-column" data-speed="0.9">
+                            <div class="image-track hero__image-track">
                                 <img src="assets/img7.jpg" />
                                 <img src="assets/img8.png" />
                                 <img src="assets/img8.jpg" />
@@ -212,13 +214,11 @@
                                 <p class="card__text">IB, Cambridge, Finnish and other global curricula.</p>
                             </div>
                         </article>
-
-                        <div class="pagination" aria-hidden="true"></div>
                     </div>
+                    <div class="pagination" aria-hidden="true"></div>
                 </div>
             </section>
 
-            <!-- EXPO -->
             <!-- EXPO -->
             <section class="expo-split" aria-labelledby="expoHeading">
                 <div class="expo-split__content">
@@ -243,10 +243,10 @@
             <section class="mustvisit">
                 <h2 class="mustvisit__title">What Makes This Exhibition a Must-Visit</h2>
 
-                <div class="mustvisit__slider">
+                <div class="mustvisit__slider" role="region" aria-roledescription="carousel" aria-label="Must visit highlights">
                     <!-- <button class="nav nav--prev" aria-label="Previous slide">‹</button> -->
 
-                    <div class="mustvisit__track">
+                    <div class="mustvisit__track" tabindex="0">
                         <article class="mustvisit__card">
                             <img src="assets/icons/interact.svg" alt="" />
                             <h3>Interact Directly with School Heads</h3>
@@ -301,7 +301,7 @@
             </section>
         </main>
 
-        <footer class="site-footer">
+        <footer class="site-footer" role="contentinfo">
             <div class="footer-main">
                 <div class="footer-container">
                     <!-- Logo -->
